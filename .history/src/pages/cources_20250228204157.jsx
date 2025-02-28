@@ -20,29 +20,29 @@ const Cources = () => {
 
           <div className="row event-box">
             <CourceBox
-              img="/images/course-01.jpg"
+              img="./images/course-01.jpg"
               category="Web Development"
               className="web-box"
             />
-            <CourceBox img="/images/course-02.jpg" category="AWS Cloud" />
+            <CourceBox img="./images/course-02.jpg" category="AWS Cloud" />
             <CourceBox
-              img="/images/course-03.jpg"
+              img="./images/course-03.jpg"
               category="Artificial Intelligence"
             />
             <CourceBox
-              img="/images/course-04.jpg"
+              img="./images/course-04.jpg"
               category="Machine Learning"
             />
             <CourceBox
-              img="/images/course-05.jpg"
+              img="./images/course-05.jpg"
               category="Java Full Stack"
             />
-            <CourceBox img="/images/course-06.jpg" category="React JS" />
+            <CourceBox img="./images/course-06.jpg" category="React JS" />
             <CourceBox
-              img="/images/course-02.jpg"
+              img="./images/course-02.jpg"
               category="Digital Marketing"
             />
-            <CourceBox img="/images/course-01.jpg" category="Node JS" />
+            <CourceBox img="./images/course-01.jpg" category="Node JS" />
           </div>
         </div>
       </section>

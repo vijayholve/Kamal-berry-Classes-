@@ -83,36 +83,25 @@
       align-items: center;
     }
   
+
+/* Active Card */
+.item.active {
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.3);
+  border-color: #ffffff;
+}
+
+.item.active h4 {
+  color: #fff;
+}
     .item {
       width: 100%;
       max-width: 300px;
     }
   }
   
-
-  .item {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  padding: 15px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.item.active {
-  background-color: #007bff;
-  color: white;
-  transform: scale(1.1);
-}
-
-.service-details {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-    
-
 /* Service Details Section */
 .service-details {
   background: rgba(255, 255, 255, 0.1);

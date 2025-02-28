@@ -52,7 +52,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-             📞 +91 74991 96504
+              +91 74991 96504
             </a>
 
             <p className="text-white d-flex">
@@ -71,8 +71,7 @@ const Footer = () => {
           <div className="col-lg-12">
             <p>
               <br />
-             
-💻  Website Support : +91 8080028963
+              Website Support : Vijay Gholve (+91 8080028963)
             </p>
           </div>
         </div>

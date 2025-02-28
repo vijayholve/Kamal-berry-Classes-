@@ -1,0 +1,94 @@
+/* General Styling */
+.categories-collections {
+    padding: 160px 0 0 0;
+    background-color: #ffffff;
+  }
+  
+  .training-heading {
+    margin-bottom: 40px;
+  }
+  
+  .training-heading h6 {
+    font-size: 18px;
+    color: #007bff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  .training-heading h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .training-heading h1 em {
+    color: #007bff;
+    font-style: normal;
+  }
+  
+  /* Categories Grid */
+  .categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Category Item */
+  .item {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(255, 255, 255, 0.15);
+  }
+  
+  /* Category Icon */
+  .icon {
+    font-size: 40px;
+    color: #007bff;
+    background: #e0f0ff;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  .item:hover .icon {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  /* Category Title */
+  .item h4 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .categories {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
+
+  
+    

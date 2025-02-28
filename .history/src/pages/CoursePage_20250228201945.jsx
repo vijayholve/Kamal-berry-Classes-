@@ -19,7 +19,6 @@ import coursesData from "./data/coursesData";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "../css/coursePage.css";
-import Cources from "./cources";
 
 const CoursePage = () => {
   const { category } = useParams();
@@ -36,7 +35,6 @@ const CoursePage = () => {
   }
 
   return (
-    <>
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -136,8 +134,6 @@ const CoursePage = () => {
         </Card>
       </Container>
     </motion.div>
-    <Cources />
-    </>
   );
 };
 

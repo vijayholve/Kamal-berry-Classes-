@@ -55,34 +55,29 @@ const Services = () => {
             </motion.div>
           </div>
 
-          {/* Categories Section */}
+          {/* Tab Navigation */}
           <div className="col-lg-12">
-            <div className="categories">
+            <div className="tabs">
               <div className="row">
-                <div className="col-lg-12 pb-5"></div>
                 {categories.map((category, index) => (
-                  <div 
-                    key={index} 
-                    className="col-lg-2 col-sm-6 d-flex flex-column align-items-center pb-3"
-                  >
-                    <div 
-                      className={`item ${selectedCategory.title === category.title ? 'active' : ''}`} 
+                  <div key={index} className="col-lg-2 col-sm-6 text-center">
+                    <button 
+                      className={`tab-button ${selectedCategory.title === category.title ? 'active' : ''}`} 
                       onClick={() => setSelectedCategory(category)}
                     >
-                      <div className="icon">{category.icon}</div>
-                      <h4>{category.title}</h4>
-                      <div className="icon-button"></div>
-                    </div>
+                      {category.icon}
+                      <h5>{category.title}</h5>
+                    </button>
                   </div>
                 ))}
               </div>
             </div>
           </div>
 
-          {/* Service Details Section */}
+          {/* Tab Content */}
           <div className="col-lg-12">
             <motion.div 
-              className="service-details text-center"
+              className="tab-content text-center"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}

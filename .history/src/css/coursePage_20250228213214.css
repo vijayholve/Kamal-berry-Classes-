@@ -84,7 +84,7 @@
   .full-page-container {
     padding: 40px 0;
     min-height: 100vh;
-    background: #ffffff;
+    background: #f;
   }
   
   .course-header {
@@ -134,7 +134,7 @@
   }
   
   .topic-chip {
-    background: #ffffff;
+    background: #e3f2fd;
     font-weight: 500;
     color: #1976d2;
   }
@@ -153,7 +153,7 @@
   .full-page-container {
     padding: 40px 0;
     min-height: 100vh;
-    background: linear-gradient(180deg, #cde6ff 0%, #c4e5ff 100%);
+    background: #f5f5f5;
   }
   
   .course-header {

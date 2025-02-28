@@ -110,7 +110,7 @@ const Contact = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
-                                +91 74991 96504
+                              📞 Phone: +91 74991 96504
                               </a>
                             </h4>
                           </div>
@@ -119,7 +119,7 @@ const Contact = () => {
                           <div className="info-item">
                             <i className="fa fa-envelope"></i>
                             <h4>
-                              <a href="">kamalberry021@gmail.com </a>
+                              <a href="">📧 Email: kamalberry021@gmail.com  </a>
                             </h4>
                           </div>
                         </div>

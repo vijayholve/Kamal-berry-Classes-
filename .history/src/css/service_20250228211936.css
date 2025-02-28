@@ -90,96 +90,37 @@
   }
   
 
-  .item {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+    .tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  background: none;
+  border: 2px solid #ddd;
   padding: 15px;
-  text-align: center;
-  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 8px;
 }
 
-.item.active {
-  background-color: #007bff;
+.tab-button h5 {
+  margin-top: 10px;
+}
+
+.tab-button:hover,
+.tab-button.active {
+  background: #007bff;
   color: white;
-  transform: scale(1.1);
+  border-color: #007bff;
 }
 
-.service-details {
+.tab-content {
   background: #f9f9f9;
   padding: 20px;
   border-radius: 10px;
   margin-top: 20px;
-}
-
-    
-
-/* Service Details Section */
-.service-details {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(12px);
-  padding: 30px;
-  border-radius: 15px;
-  margin-top: 30px;
-  text-align: center;
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease-in-out;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  overflow: hidden;
-}
-
-/* Glowing Gradient Effect */
-.service-details::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: linear-gradient(120deg, rgba(0, 123, 255, 0.2), rgba(0, 255, 200, 0.2));
-  transform: rotate(45deg);
-  transition: all 0.8s ease-in-out;
-  z-index: 0;
-}
-
-/* Active Animation */
-.service-details.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Title Styling */
-.service-details h3 {
-  font-size: 26px;
-  font-weight: bold;
-  color: #007bff;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-  position: relative;
-  z-index: 2;
-}
-
-/* Description Styling */
-.service-details p {
-  font-size: 18px;
-  color: #333;
-  line-height: 1.8;
-  position: relative;
-  z-index: 2;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-/* Smooth Fade-in Effect */
-.service-details {
-  opacity: 0;
-  transform: translateY(20px);
-}
-
-.service-details.show {
-  opacity: 1;
-  transform: translateY(0);
 }

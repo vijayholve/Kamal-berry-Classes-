@@ -52,7 +52,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-             📞 +91 74991 96504
+              +91 74991 96504
             </a>
 
             <p className="text-white d-flex">

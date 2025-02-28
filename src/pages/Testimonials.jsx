@@ -75,13 +75,13 @@ const Testimonials = () => {
         <div className="row">
           <div className="col-lg-12">
             <motion.div
-              className="training-heading"
+              className="training-heading "
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <h6>Testimonials</h6>
-              <h1>
+              <h1 className =" px-5 pt-3 pb-3">
                 What Our <em>Students Say</em>
               </h1>
             </motion.div>

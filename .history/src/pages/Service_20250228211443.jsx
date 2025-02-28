@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../css/service.css";
 import { motion } from "framer-motion";
 import { FaCloud, FaCode, FaDatabase, FaPalette, FaLock, FaRobot } from "react-icons/fa";
@@ -35,15 +34,14 @@ const categories = [
     about: "AI & Machine Learning focus on building intelligent systems that can learn and make decisions without human intervention. This includes deep learning, natural language processing, and neural networks using frameworks like TensorFlow and PyTorch."
   }
 ];
-
 const Services = () => {
-  const [selectedCategory, setSelectedCategory] = useState(categories[0]); // Default first category selected
-
+ 
+  
   return (
     <div className="categories-collections">
       <div className="container">
         <div className="row">
-          {/* Heading Section */}
+          {/* Testimonial Section */}
           <div className="col-lg-12">
             <motion.div
               className="training-heading text-center"
@@ -51,7 +49,10 @@ const Services = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1>Our <em>Services</em></h1>
+              <h6></h6>
+              <h1>
+                 Our <em>Services</em>
+              </h1>
             </motion.div>
           </div>
 
@@ -59,19 +60,16 @@ const Services = () => {
           <div className="col-lg-12">
             <div className="categories">
               <div className="row">
-                <div className="col-lg-12 pb-5"></div>
+                <div className="col-lg-12 pb-5">
+           
+                </div>
                 {categories.map((category, index) => (
-                  <div 
-                    key={index} 
-                    className="col-lg-2 col-sm-6 d-flex flex-column align-items-center pb-3"
-                  >
-                    <div 
-                      className={`item ${selectedCategory.title === category.title ? 'active' : ''}`} 
-                      onClick={() => setSelectedCategory(category)}
-                    >
+                  <div key={index} className="col-lg-2 col-sm-6 d-flex flex-column align-items-center pb-3">
+                  <div className="item">
                       <div className="icon">{category.icon}</div>
                       <h4>{category.title}</h4>
-                      <div className="icon-button"></div>
+                      <div className="icon-button">
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -79,18 +77,7 @@ const Services = () => {
             </div>
           </div>
 
-          {/* Service Details Section */}
-          <div className="col-lg-12">
-            <motion.div 
-              className="service-details text-center"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
-            >
-              <h3>{selectedCategory.title}</h3>
-              <p>{selectedCategory.about}</p>
-            </motion.div>
-          </div>
+    
         </div>
       </div>
     </div>
