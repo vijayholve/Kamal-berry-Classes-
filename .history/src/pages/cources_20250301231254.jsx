@@ -24,7 +24,7 @@ const Cources = () => {
               category="Web Development"
               className="web-box"
             />
-            <CourceBox img="\images\cloud-computing-app.jpg" category="AWS Cloud" />
+            <CourceBox img="/images/1.png" category="AWS Cloud" />
             <CourceBox
               img="/images/13.png"
               category="Artificial Intelligence"

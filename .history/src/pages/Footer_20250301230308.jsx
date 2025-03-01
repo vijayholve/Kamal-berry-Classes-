@@ -71,9 +71,9 @@ const Footer = () => {
           <div className="col-lg-12">
           <p>
   <br />
-  💻 Website Support & Development:   
-  <a className="text-opacity-100 text-warning text-bold " href="https://wa.me/918080028963?text=Hello%2C%20I%20need%20a%20website.%20Can%20we%20discuss%3F" target="_blank">
-     +91 8080028963
+  💻 Website Support & Development:  
+  <a className="text-opacity-100 text-warning text-bol" href="https://wa.me/918080028963?text=Hello%2C%20I%20need%20a%20website.%20Can%20we%20discuss%3F" target="_blank">
+    +91 8080028963
   </a>
 </p>
 

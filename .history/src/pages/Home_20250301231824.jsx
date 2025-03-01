@@ -29,12 +29,8 @@ const Home = () => {
           <div className="col-lg-6">
             <div className="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
               <img src="\images\Untitled design.png" alt="Kamal Berry Classes"/>
-              {/* <img src="\images\Intro.png" alt="Kamal Berry Classes"/> */}
-              {/* <img src="\images\home-3.png" alt="Kamal Berry Classes"/> */}
-              {/* <img src="\images\home-4.png" alt="Kamal Berry Classes"/> */}
-
             </div>
-            
+            "C:\Users\Vijay\practice\react\Class website\Apna-classes\public\images\Intro.png"
           </div>
         </div>
       </div>
