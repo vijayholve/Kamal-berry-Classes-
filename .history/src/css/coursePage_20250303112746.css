@@ -1,0 +1,108 @@
+/* General Styling */
+.full-page-container {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.course-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-icon {
+  font-size: 40px;
+  color: #1976d2;
+}
+
+.course-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Tabs Card */
+.tabs-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.MuiTabs-root {
+  border-bottom: 2px solid #ddd;
+}
+
+/* Course Description */
+.description-heading {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.course-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.course-highlights,
+.additional-perks {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.course-highlights li,
+.additional-perks li {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #eef7ff;
+  border-radius: 5px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.course-highlights li strong,
+.additional-perks li strong {
+  margin-left: 5px;
+}
+
+/* Topics Section */
+.topics-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.topic-list-item {
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.topic-chip {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #1976d2;
+  color: white;
+}
+
+.check-icon {
+  color: #4caf50;
+}
